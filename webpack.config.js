@@ -10,7 +10,7 @@ module.exports = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-        title: 'Webpack Setup',
+        title: 'Wbpack Exercise',
         filename: 'index.html',
         template: './src/index.html',
     })
@@ -25,6 +25,7 @@ module.exports = {
   },
   output: {
     filename: 'bundle.js',
+    /* eslint-disable */
     path: path.resolve(__dirname, 'dist'),
     clean: true,
   },
